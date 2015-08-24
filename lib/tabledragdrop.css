@@ -1,3 +1,11 @@
+table th{
+	cursor: pointer;
+}
+
+table th.noDrag{
+	cursor: not-allowed;
+}
+
 .drag_freeze { /* замороженный (исходный перетаскиваемый) столбец или ряд */
 	background: #bbb;
 	color: #888;
